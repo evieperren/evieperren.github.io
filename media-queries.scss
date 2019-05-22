@@ -6,10 +6,6 @@
 @media only screen and (min-width: 300px) and (max-width: 599px) {
 /* ---------------------------- HOME PAGE STYLES --------------------------*/
     /* header styles */
-    .header { 
-        height: 60vh !important; 
-        width: 100% !important; 
-    }
     .header__nav {
         padding-right: 0 !important;
     }
@@ -25,23 +21,24 @@
     /* intro section */
     
     .intro-section h3 {
-        font-size: 25px !important;
-        padding: 20px 0 0 80px !important;
+        font-family: 25px !important;
+        text-align: center;
+        padding-left: 5px !important;
+        padding-top: 0 !important;
     }
     #desktop-img-mac{
         width: 80% !important;
         padding-left: 10% !important;
     }
-    .PGPH {
-        padding: 20px !important;
-    }
     .p-1 {
-        width: 250px !important;
-        padding-top: 150px !important;
+        width: 80% !important;
+        margin-left: 30px; 
     }
     .p-2 {
         width: 80% !important;
+        margin-left: 30px; 
         text-align: center;
+        padding: 0 !important;
     }
     .intro-section h2 {
         padding-left: 15% !important;
@@ -57,8 +54,10 @@
     /* paid work section */
     .paid-work-p-1 {
         display: block !important;
-        width: 90% !important;
+        width: 80% !important;
+        margin-left: 20px;
         margin-top: 60px !important;
+        padding: 0 !important;
     }
     #mobile-imgs {
         width: 80% !important;
@@ -71,10 +70,6 @@
 }
 
 /* ---------------------------- ABOUT PAGE STYLES --------------------------*/
-.other-pages-header {
-    height: 250px !important;
-    width: 100% !important;
-}
 .other-pages-header h1 {
     font-size: 40px !important;
 }
@@ -135,26 +130,21 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 767px ) {
     /* ---------------------------- HOME PAGE STYLES --------------------------*/
-   .header { 
-        height: 80vh !important; 
-        width: 100% !important; 
-    } 
     #header__line--first,
     #header__line--last {
         font-size: 100px !important;
     }
     .intro-section h3 {
-        font-size: 25px !important;
-        padding: 20px 0 0 150px !important;
+        text-align: center;
+        padding: 0 !important;
     }
     #desktop-img-mac{
-        width: 400px !important;
-        padding-left: 100px !important;
+        width: 80% !important;
+         padding-left: 80px !important; 
     }
     .p-1 {
-        width: 400px !important;
-        padding-top: 200px !important;
-        padding-left: 100px !important;
+        width: 80%!important;
+        padding-left: 80px !important; 
     }
     .intro-section h2 {
         padding-right: 200px !important;
@@ -180,10 +170,7 @@
         width: 500px !important;
     }
 /* ---------------------------- ABOUT PAGE STYLES --------------------------*/
-.other-pages-header {
-    height: 400px !important;
-    width: 100% !important;
-}
+.other-pages-header { height: 30% !important; }
 .other-pages-header h1 {
     font-size: 90px !important;
 }
@@ -209,24 +196,27 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     /* ---------------------------- HOME PAGE STYLES --------------------------*/
-.header { 
-    height: 95vh !important; 
-    width: 100% !important;
+#header__line--first {
+    font-size: 150px !important;
 }
 #header__line--last {
     font-size: 150px !important;
 }
-h3 { padding: 20px 0 0 150px !important; }
+h3 { 
+    text-align: center;
+    padding: 0 !important; 
+}
 #desktop-img-mac{
-    width: 500px !important;
-    padding-left: 130px !important;
+    width: 80% !important;
+    padding-left: 100px !important;
 }
 .p-1 {
-    width: 600px !important;
-    padding-top: 150px !important;
-    padding-left: 90px !important;
-    font-size: 20px !important;
-    line-height: 40px !important;
+    width: 80% !important;
+    padding-left: 100px !important;
+
+}
+.p-2 {
+    padding-left: 30px !important;
 }
 .paid-work-p-1 {
     font-size: 16px !important;
@@ -234,7 +224,6 @@ h3 { padding: 20px 0 0 150px !important; }
     transform: translateY(5px) !important;
 }
 .intro-section h2 {
-    text-align: left !important;
     padding-left: 100px !important;
 }
 #desktop-imgs {
@@ -242,9 +231,7 @@ h3 { padding: 20px 0 0 150px !important; }
     padding-left: 120px !important;
 }
 /* ---------------------------- ABOUT PAGE STYLES --------------------------*/
-.other-pages-header {
-    height: 400px !important;
-}
+.other-pages-header {height: 30% !important;}
 .about-me-info,
 .quali-info,
 .get-in-touch-section {
@@ -266,41 +253,37 @@ h3 { padding: 20px 0 0 150px !important; }
     body {
         width: 100% !important;
     }
-    .header { 
-    height: 75vh !important; 
-    width: 100% !important;
-    }
     #header__line--first,
     #header__line--last {
         font-size: 180px !important;
     }
 
-    h3 { padding: 50px 0 0 250px !important; }
+    h3 { 
+        text-align: center;
+        padding: 0 !important; 
+    }
     #desktop-img-mac{
-    width: 500px !important;
+    width: 80% !important;
     padding-left: 100px !important;
     }
-    .p-1 {
-        padding-top: 30px;
-        width: 350px !important;
-        transform: translateY(-100px);
+    .p-1  {
+        padding-left: 100px !important;
+        width: 80% !important;
+
     }  
     .GHD-section img{
         width: 100% !important;
     }
-    .paid-work-p-1{
+    .paid-work-p-1 .PGPH {
         transform: translateY(0px)
     }
     #desktop-imgs { 
-    width: 70% !important;
-    padding-left: 150px !important;
+
     margin-top: 20px !important;
 }
 
 /* ---------------------------- ABOUT PAGE STYLES --------------------------*/
-.other-pages-header {
-    height: 450px !important;
-}
+.other-pages-header { height: 40% !important;}
 .about-me-info,
 .quali-info,
 .get-in-touch-section {
@@ -320,10 +303,7 @@ padding: 50px 0 0 260px !important;
 /* larger devices (Ipad Pro, 1024px and up) */
 @media only screen and (min-width: 1023px) and (max-width: 1199px) {
     /* ---------------------------- HOME PAGE STYLES --------------------------*/
-   .header { 
-        height: 75vh !important;
-        width: 100% !important;
-    } 
+
     #header__line--first,
     #header__line--last {
         font-size: 200px !important;
@@ -334,18 +314,23 @@ padding: 50px 0 0 260px !important;
         
     }
     #desktop-img-mac{
-        width: 600px !important;
-        padding-left: 200px !important;
+        width: 80% !important;
+        padding-left: 100px !important;
     }
-    .p-1 {
-        margin-top: 200px !important;
-        padding-left: 170px !important;
-        width: 700px !important;
+    .p-1  {
+        padding-left: 100px !important;
+        width: 80% !important;
+
     }
     #mobile-imgs {
         padding-left: 50px !important;
     }
+    .paid-work-p-1 {
+        transform: translateY(-17px);
+
+    }
 /* ---------------------------- ABOUT PAGE STYLES --------------------------*/
+.other-pages-header { height: 50% !important;}
 .get-in-touch-section {
    padding: 50px 0 0 500px !important; 
 }
@@ -370,7 +355,6 @@ padding: 50px 0 0 260px !important;
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
     /* ---------------------------- HOME PAGE STYLES --------------------------*/
-.header { height: 80vh !important; }
 
 #header__line--first,
 #header__line--last {
@@ -378,13 +362,13 @@ padding: 50px 0 0 260px !important;
 }
 h3 { padding: 50px 0 0 350px !important; }
 #desktop-img-mac{
-    width: 700px !important;
+    width: 80% !important;
     padding-left: 100px !important;
 }
-.p-1 {
-    width: 250px !important;
-    padding-left: 40px !important;
-    font-size: 16px !important;
+.p-1  {
+   padding-left: 100px !important;
+        width: 80% !important;
+    
 }
 #desktop-imgs { 
     padding-left: 140px !important;
@@ -395,9 +379,8 @@ h3 { padding: 50px 0 0 350px !important; }
     display: block;
 }
 /* ---------------------------- ABOUT PAGE STYLES --------------------------*/
-.other-pages-header {
-    height: 500px !important;
-}
+.other-pages-header { height: 60% !important;}
+
 
 }
 
@@ -407,22 +390,22 @@ h3 { padding: 50px 0 0 350px !important; }
 
 @media only screen and (min-width: 1400px) and (max-width: 1599px){
 /* ---------------------------- HOME PAGE STYLES --------------------------*/
-.header{
-    height: 70vh !important;
-}
 #header__line--first,
 #header__line--last {
     font-size: 300px;
 }
 .p-1 {
-    width: 350px !important;
-    padding-left: 80px !important;
-    padding-top: 60px;
+    width: 20% !important;
+    padding-left: 30px !important;
+    transform: translateY(-80px) !important;
 }
-.paid-work-p-1 {
+#desktop-img-mac {
+    width: 60% !important;
+    padding-left: 140px !important;
+}
+.paid-work-p-1 .PGPH  {
     transform: translateY(-100px) !important;
 }
-
 #desktop-imgs { 
     padding-left: 230px !important;
     margin-top: 20px !important;
@@ -430,9 +413,7 @@ h3 { padding: 50px 0 0 350px !important; }
 
 
 /* ---------------------------- OTHER PAGE STYLES --------------------------*/
-.other-pages-header {
-    height: 500px !important;
-}
+.other-pages-header { height: 60% !important;}
 .get-in-touch-section {
    padding: 50px 0 0 500px !important; 
 }
@@ -451,26 +432,26 @@ padding: 50px 0 0 400px !important;
 
 @media only screen and (min-width: 1600px) {
 /* ---------------------------- HOME PAGE STYLES --------------------------*/
-.header{
-    height: 120vh !important;
-}
 .p-1 {
-    width: 350px !important;
-    padding-left: 100px !important;
-    transform: translateY(-300px) !important;
     font-size: 18px !important;
+    width: 20% !important;
+    padding-left: 30px !important;
+    transform: translateY(-160px) !important;
+    display: inline-block !important;
 }
-.paid-work-p-1 {
+
+.paid-work-p-1 .PGPH {
     padding-left: 230px !important;
     font-size: 18px !important;
+}
+#desktop-img-mac {
+    width: 60% !important;
 }
 #mobile-imgs {
     width: 400px !important;
 }
 /* ---------------------------- OTHER PAGE STYLES --------------------------*/
-.other-pages-header {
-    height: 600px !important;
-}
+.other-pages-header { height: 60% !important;}
 .about-me-info,
 .quali-info,
 .get-in-touch-section {
